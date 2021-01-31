@@ -1,0 +1,4 @@
+﻿  mayin Tarlasi.c
+C:\Users\msi\source\repos\mayınTarlası\mayınTarlası\mayin Tarlasi.c(101,16): warning C4101: 'c': yerel değişken başvurusu kaldırıldı
+C:\Users\msi\source\repos\mayınTarlası\mayınTarlası\mayin Tarlasi.c(138,12): warning C4013: 'time' tanımsız; int döndüren extern olduğu varsayılıyor
+  mayınTarlası.vcxproj -> C:\Users\msi\source\repos\mayınTarlası\Debug\mayınTarlası.exe
