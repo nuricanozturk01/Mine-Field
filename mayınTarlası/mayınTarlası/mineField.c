@@ -109,6 +109,7 @@ void startGame(mineBoard board)
 		{
 			health--;
 			printf("BOOm!: Your health: %d\n", health);
+			Sleep(1000);
 			board[row][col] = BUSTED;
 			sketchBoard(board,1);
 		}
