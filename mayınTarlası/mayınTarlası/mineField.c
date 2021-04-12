@@ -79,20 +79,15 @@ void sketchBoard(mineBoard board,int n)
 // Mine control
 bool mineControl(int row, int col, mineBoard board)
 {
-	if (board[row][col] == MINE)
-		return true;
-	return false;
+	return board[row][col] == MINE;
 }
 bool checkEmpty(mineBoard board)
 {
 	for (int r = 0; r < BOARD_SIZE; ++r)
-	{
 		for (int c = 0; c < BOARD_SIZE; ++c)
-		{
 			if (board[r][c] == EMPTY)
 				return false;
-		}
-	}
+	
 	return true;
 }
 void startGame(mineBoard board)
